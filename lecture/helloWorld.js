@@ -8,3 +8,8 @@ function helloNode() {
 }
 
 helloWorld();
+
+/*
+ Ctrl + `(백틱) : 하단에 cmd 생성됨
+ powershell -> cmd - Default값 변경하기
+*/
