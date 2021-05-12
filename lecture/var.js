@@ -8,6 +8,10 @@ module.exports = {
   odd,
   even,
 };
+// exports.odd = odd;
+// export.even = even; 과 동일함  <- 해당형식 사용시 module.exports는 사용하면 안됨(무시됨, 같이 사용불가)
+// 객체형식과의 차이점은? 기본적으로 module.exports === exports === {}
+
 
 /*
   module.exports는 객체로 값을 넘기는데 최신 문법에서 키:값이 같은경우 생략이 가능하게됨
